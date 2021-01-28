@@ -1,0 +1,6 @@
+{
+    "num_leaves":{"_type":"randint","_value":[30, 50]},
+    "learning_rate":{"_type":"choice","_value":[0.01, 0.05]},
+    "scale_pos_weight":{"_type":"uniform","_value":[0.2, 0.5]},
+    "bagging_freq":{"_type":"choice","_value":[1, 2]}
+}
